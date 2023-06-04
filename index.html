@@ -53,6 +53,10 @@
             padding-top: 50px;
             
         }
+        .banner-image {
+        background-image: url('aset/mountain2.jpg');
+        background-size: cover;
+        }
     </style>
     <title>TIK</title>
         <link rel="icon" type="image/x-icon" href="/aset/brand.png">
@@ -61,123 +65,86 @@
 
 <body class="bg-dark">
      <!-- nav s -->
-     <nav class="navbar navbar-expand-lg navbar-dark bodas bg-dark ">
-        <div class="container-fluid">
-            <a class="navbar-brand" style="" href="#"><img class="foto" src="/aset/brand.png"></a>
-            <button class="bodas navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="bodas navbar-toggler-icon"></span>
-            </button>
-            <div class="bodas collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Nama Kelompok
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/tugas-individu/Sani/">Muhammad Dzikrullah Sani</a></li>
-                            <li><a class="dropdown-item" href="/tugas-individu/Fadhli/">Muhammad Fadli Nugroho</a></li>
-                            <li><a class="dropdown-item" href="/tugas-individu/Erlangga/">Erlangga Wahyudinata</a></li>
-                            <li><a class="dropdown-item" href="/tugas-individu/Egy/">Egy Bareka Sebayang</a></li>
-                            <li><a class="dropdown-item" href="/tugas-individu/Tama/">Adirya Tama</a></li>
-                            <li><a class="dropdown-item" href="/tugas-individu/Ikhsan/">Ikhsan</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Mapel
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/Mapel/TIK/">TIK</a></li>
-                            <li><a class="dropdown-item" href="/Mapel/SEJINDO/">SEJINDO</a></li>
-                            <li><a class="dropdown-item" href="/Mapel/KIMIA/">KIMIA</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
+     <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+          <a class="navbar-brand" href="/">Kelompok 1</a>
+          <button class="bodas animasi navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse animasi navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="/">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
+                              data-bs-toggle="dropdown" aria-expanded="true">
+                              BAGIAN
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#I">Muhammad Dzikrullah Sani</a></li>
+                              <li><a class="dropdown-item" href="#II">Zahra Salsabilla Arindi</a></li>
+                              <li><a class="dropdown-item" href="#III">Agnestika Edheline</a></li>
+                              <li><li class="dropdown-item" href="#IV">Ikhsan</a></li>                         
+                          </ul>
+                      </li>
+                    
+                  </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
     <!-- nav e -->
+     <!-- Banner Image  -->
+     <div
+     class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
+   >
+     <div class="content text-center">
+       <h1 class="text-white masuk1">PRATIKUM KOLOID</h1>
+       <h4 class="text-white masuk2">Halaman Beranda</h4>
+       <h5 class="text-white masuk2">Kelompok 4</h5>
+     </div>
+   </div>
     <!-- content -->
-    <h1 class="isikonten">Tugas TIK</h1>
+    <h1 class="isikonten">Artikel hasil Laporan Pratikum</h1>
     <div class=" d-flex flex-wrap">
         <!-- tugas 1 -->
         <div class="ms-5 mt-4 card bege text-light" style="width: 18rem;">
-            <img src="/aset/search-engine.png" class="card-img-top" alt="Tugas 1" onmouseover="this.src='/aset/search-engine.gif'"  onmouseout="this.src='/aset/search-engine.png'">
+            <img src="/aset/PRATIKUM(sani).png" class="card-img-top" alt="Tugas 1"   >
             <div class="card-body">
-                <h5 class="card-title">Search Engine</h5>
-                <p class="card-text">Ini adalah materi tentang search engine</p>
+                <h5 class="card-title">Laporan Pratikum Koloid</h5>
+                <p class="card-text">artikel laporan pratikum by Sani</p>
+                <a href="/KIMIA/LaporanKimia(Sani)/" class="btn btn-primary">Lihat Tugas</a>
+            </div>
+        </div>
+        <!-- tugas 1 -->
+        <div class="ms-5 mt-4 card bege text-light" style="width: 18rem;">
+            <img src="/aset/PRATIKUM(sani).png" class="card-img-top" alt="Tugas 1"   >
+            <div class="card-body">
+                <h5 class="card-title">Laporan Pratikum Koloid</h5>
+                <p class="card-text">artikel laporan pratikum by Jara</p>
                 <a href="/Mapel/TIK/tugas-1/" class="btn btn-primary">Lihat Tugas</a>
             </div>
         </div>
-        <!-- tugas 2 -->
+        <!-- tugas 1 -->
         <div class="ms-5 mt-4 card bege text-light" style="width: 18rem;">
-            <img src="/aset/tugas-2.gif" class="card-img-top" alt="Tugas 1" onmouseover="this.src='/aset/tugas-2.gif'"  onmouseout="this.src='/aset/tugas-2.png'">
+            <img src="/aset/PRATIKUM(sani).png" class="card-img-top" alt="Tugas 1"   >
             <div class="card-body">
-                <h5 class="card-title">Seputar Teknologi</h5>
-                <p class="card-text">Materi seputar teknologi yang meliputi Download, Upload, DLL</p>
-                <a href="/Mapel/TIK/tugas-2/" class="btn btn-primary">Lihat Tugas</a>
+                <h5 class="card-title">Laporan Pratikum Koloid</h5>
+                <p class="card-text">artikel laporan pratikum by Delin</p>
+                <a href="/Mapel/TIK/tugas-1/" class="btn btn-primary">Lihat Tugas</a>
             </div>
         </div>
-     
-            <!-- tugas 3 -->
-            <div class="bege ms-5 mt-4 text-light" style="width: 18rem;">
-                <img src="/aset/tts-tik.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">TTS TIK</h5>
-                    <p class="card-text">Soal TTS beserta jawaban, dikerjakan di excel</p>
-                    <a href="/Mapel/TIK/tugas-3/" class="btn btn-primary">Lihat Tugas</a>
-                </div>
-            </div>
-        <!--  -->
-            <div class="card ms-5 bege mt-4 text-light" style="width: 18rem;">
-                <img src="/aset/tabel.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title" >Buat Tabel</h5>
-                    <p class="card-text">membuat tabel menggunakan HTML</p>
-                    <a href="/Mapel/TIK/tugas-4/" class="btn btn-primary">Lihat Tugas</a>
-                </div>
-            </div>
-        <!-- </> -->
-        <!--  -->
-            <div class="card ms-5 bege mt-4 text-light" style="width: 18rem;">
-                <img src="/aset/BIODATA.png" class="card-img-top" alt="Biodata">
-                <div class="card-body">
-                    <h5 class="card-title" >Biodata</h5>
-                    <p class="card-text">Membuat biodata dengan tag table</p>
-                    <a href="/Mapel/TIK/tugas-5/" class="btn btn-primary">Lihat Tugas</a>
-                </div>
-            </div>
-        <!-- </> -->
-        <!--  -->
-        <div class="card ms-5 bege mt-4 text-light" style="width: 18rem;">
-            <img src="/aset/EXCEL.png" class="card-img-top" alt="materi excel">
+        <!-- tugas 1 -->
+        <div class="ms-5 mt-4 card bege text-light" style="width: 18rem;">
+            <img src="/aset/PRATIKUM(sani).png" class="card-img-top" alt="Tugas 1"   >
             <div class="card-body">
-                <h5 class="card-title">EXCEL (SUM)</h5>
-                <p class="card-text">Rumus SUM (COUNT, AVARAGE, SUM).</p>
-                <a href="/Mapel/TIK/tugas-6/" class="btn btn-primary">Lihat Tugas</a>
+                <h5 class="card-title">Laporan Pratikum Koloid</h5>
+                <p class="card-text">artikel laporan pratikum by Ikhsan</p>
+                <a href="/Mapel/TIK/tugas-1/" class="btn btn-primary">Lihat Tugas</a>
             </div>
         </div>
-
-        <div class="card ms-5 bege mt-4 text-light" style="width: 18rem;">
-                <img src="/aset/cooming.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Judul Tugas</h5>
-                    <p class="card-text">Keterangan Tugas</p>
-                    <a href="#" class="btn btn-primary">Lihat Tugas</a>
-                </div>
-            </div>
-        <!-- </> -->
 
     </div>
     <br>
