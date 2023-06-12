@@ -21,3 +21,10 @@ p {
   align-items: center;
   margin-bottom: 100px;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
+.alat {
+  margin-left: 8px;
+}
